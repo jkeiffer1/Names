@@ -4,4 +4,4 @@ first_name = gets.chomp
 puts "what's your last name?"
 last_name = gets.chomp
 
-puts "your name is #{first_name} #{last_name}."
+puts "your name is #{first_name.capitalize} #{last_name.capitalize}."
